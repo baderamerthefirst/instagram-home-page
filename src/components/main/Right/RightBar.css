@@ -1,0 +1,65 @@
+.RightBar {
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 36vw;
+}
+@media screen and (max-width: 800px) {
+  .RightBar {
+    display: none;
+  }
+ 
+}
+.RightBarC-container *:hover {
+    cursor:  pointer;
+}
+.RightBarC-container {
+  color: white;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-size: small;
+  
+}
+.RightBarC-container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.RightBarC-container .icon-Mtext {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+
+}
+
+.RightBarC-container .Mtext {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  
+}
+.RightBarC-container .Btext {
+  color: rgb(25, 64, 236);
+  margin-right: 35px;
+  
+}
+.RightBarB{
+  margin:30px 30px 30px 30px ;
+  padding: 10px;
+  display: flex;
+  font-size: small;
+  color: gray;
+  flex-wrap: wrap;
+}
+.RightBarB *{
+  padding-right: 5px;
+}
+.RightBarB *:hover{
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}

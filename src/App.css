@@ -1,0 +1,14 @@
+.Bars {
+  position: relative;;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+}
+.OtherBars{
+  position: absolute;
+  display: flex;
+  right: 0;
+
+}
+

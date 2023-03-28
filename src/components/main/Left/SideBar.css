@@ -1,0 +1,73 @@
+.sideBar {
+  display: flex;
+  background-color: black;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  width: 20vw;
+}
+
+.instagram-icon {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .sideBar {
+    width: 75px;
+  }
+  .sideBarB-container span {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sideBar {
+    height: 70px;
+    width: 100vw;
+    bottom: 0PX;
+    z-index: 10;
+  }
+  .more {
+    display: none;
+  }
+  .instagram-icon {
+    display: none;
+  }
+  .sideBarM {
+    display: flex;
+    justify-content: space-around;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .search{
+    display: none;
+  }
+  .notification{
+    display: none;
+  }
+}
+
+.sideBarB-container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: max-content;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.25s ease-out, background-color 0.25s ease-out;
+}
+.sideBarB-container:hover {
+  transform: scale(1.05);
+  background-color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+.sideBarB-container img {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+.sideBarB-container span {
+  padding-left: 10px;
+}
